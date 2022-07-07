@@ -1,8 +1,8 @@
-# test
+# Test
   
   ## License
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-        "This project is licensed under the Apache_2.0 license." 
+  [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+        "This project is licensed under the Boost_1.0 license." 
   
   ## Table of Contents
   * [Description](#descripion)
@@ -32,7 +32,7 @@
   
   ## Questions
   * Contact me at: 
-  test
+  mackenzieabe@gmail.com 
   * Visit my GitHub profile at: 
-  https://github.com/test
+  https://github.com/mackenzieabe
    
