@@ -15,4 +15,47 @@ function renderLicense(license) {
       default:
         return 'No License'
     }
+  } 
+  // TODO: Create a function to generate markdown for README
+function generateMarkdown(data) {
+    return `# ${data.name}
+  
+  ## License
+  ${renderLicense(data.license)} 
+  
+  ## Table of Contents
+  * [Description](#descripion)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
+  * [Credits](#credits)
+  * [Tests](#tests)
+  
+  ## Description
+  ${data.description}
+  
+  ## Installation
+  ${data.instruction}
+  
+  ## Usage
+  ${data.usage}
+  
+  ## Contribution
+  ${data.guidelines}
+  
+  ## Credits
+  ${data.credits}
+  
+  ## Tests
+  ${data.test}
+  
+  ## Questions
+  * Contact me at: 
+  ${data.questions}
+  * Visit my GitHub profile at: 
+  https://github.com/${data.username}
+   `;
   }
+  
+  module.exports = generateMarkdown;
+  
